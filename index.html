@@ -54,23 +54,25 @@ layout: landing
 						<section class="spotlight">
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 							<div class="content">							
-								{% capture my_include %}{% include_relative content-landing/_posts/two-1.md %}
+								{% capture two-1 %}{% include_relative content-landing/_posts/two.1.md %}
 								{% endcapture %}
-								{{ my_include | markdownify }}
+								{{ two-1 | markdownify }}
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+							<div class="content">
+								{% capture two-2 %}{% include_relative content-landing/_posts/two.2.md %}
+								{% endcapture %}
+								{{ two-2 | markdownify }}
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+							<div class="content">
+								{% capture two-3 %}{% include_relative content-landing/_posts/two.3.md %}
+								{% endcapture %}
+								{{ two-3 | markdownify }}
 							</div>
 						</section>
 					</section>
