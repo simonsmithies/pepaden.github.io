@@ -13,18 +13,34 @@ layout: landing
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
 
+					<section id="one" class="wrapper style1">
+						<div class="inner {{ page.style }}">
+							{% capture first-post %}
+								{% include_relative content-landing/_posts/one.md %}
+							{% endcapture %}
+							{{ first-post | markdownify }}
+							<ul class="icons major">
+								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+<!--
+						<section id="two" class="wrapper style{{ forloop.index }} special {{post.categories | join: '_'}}">
 					{% for post in site.categories.content-landing reversed %}
 						{% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-						<section id="one" class="wrapper style{{ forloop.index }} special {{post.categories | join: '_'}}">
+
 								{% if post.image %}
 									<img class="left" src="images/{{ post.image }}" />
 								{% endif %}
 							<div class="inner {{ page.style }}">
-
 								{{ post.content }}
+
 							</div>
 						</section>
-					{% endfor %}s
+					{% endfor %}s-->
 
 				<!-- Call to action -->
 					<section id="cta" class="wrapper style4">

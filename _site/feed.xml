@@ -8,8 +8,8 @@ and humanitarian aid
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Feb 2017 18:47:35 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Feb 2017 18:47:35 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Feb 2017 20:30:42 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Feb 2017 20:30:42 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -279,7 +279,9 @@ This creates and checks out an orphan branch called gh-pages that tracks the ori
     
       <item>
         <title>home</title>
-        <description>&lt;p&gt;…it’s focused on delivering information quickly, easily, configurably, and stylishly!&lt;/p&gt;
+        <description>&lt;h2 id=&quot;these-tents-are-really-greatbr-yep&quot;&gt;These tents are really great&lt;br /&gt;Yep&lt;/h2&gt;
+
+&lt;p&gt;…it’s focused on delivering information quickly, easily, configurably, and stylishly!&lt;/p&gt;
 
 &lt;p&gt;Want to make a single-page site to show off something cool? Go &lt;a href=&quot;https://github.com/t413/SinglePaged&quot;&gt;fork me on github!&lt;/a&gt;&lt;/p&gt;
 </description>
