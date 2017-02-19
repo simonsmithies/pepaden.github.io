@@ -13,8 +13,14 @@ layout: landing
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
 
-					<section id="one" class="wrapper style1">
+					<section id="one" class="wrapper style1 special">
 						<div class="inner {{ page.style }}">
+							<header class="major">
+								<h2>Arcu aliquet vel lobortis ata nisl<br />
+								eget augue amet aliquet nisl cep donec</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
 							{% capture first-post %}
 								{% include_relative content-landing/_posts/one.md %}
 							{% endcapture %}
@@ -27,7 +33,7 @@ layout: landing
 						</div>
 					</section>
 
-<!--
+					<!--
 						<section id="two" class="wrapper style{{ forloop.index }} special {{post.categories | join: '_'}}">
 					{% for post in site.categories.content-landing reversed %}
 						{% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
@@ -41,6 +47,35 @@ layout: landing
 							</div>
 						</section>
 					{% endfor %}s-->
+
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+							<div class="content">							
+								{% capture my_include %}{% include_relative content-landing/_posts/two-1.md %}
+								{% endcapture %}
+								{{ my_include | markdownify }}
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Tortor dolore feugiat<br />
+								elementum magna</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Augue eleifend aliquet<br />
+								sed condimentum</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>
+
+
 
 				<!-- Call to action -->
 					<section id="cta" class="wrapper style4">
