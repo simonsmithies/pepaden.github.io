@@ -1,2 +1,2 @@
 
-…it's focused on delivering information quickly, easily, configurably, and stylishly!
+Pepaden was started to help combat landfill waste caused by cheap and nasty tents as well as provide a fun exciting new temporary accommodation option. Cheap tents are an environmental disaster causing people to buy a cheap tent every time you need to go camping leaving a long-lived and nasty legacy for future generations. Made out of Eco-friendly materials from high grade cardboard to stone paper our tents are 100% recyclable and compostable.

@@ -16,10 +16,7 @@ layout: landing
 					<section id="one" class="wrapper style1 special">
 						<div class="inner {{ page.style }}">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Why Pepaden</h2>
 							</header>
 							{% capture first-post %}
 								{% include_relative content-landing/_posts/one.md %}
@@ -28,26 +25,10 @@ layout: landing
 							<ul class="icons major">
 								<li><span class="icon fa-tree major style1"><span class="label">Lorem</span></span></li>
 								<li><span class="icon fa-recycle major style2"><span class="label">Ipsum</span></span></li>
-								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+								<li><span class="icon fa-music major style3"><span class="label">Dolor</span></span></li>
 							</ul>
 						</div>
 					</section>
-
-					<!--
-						<section id="two" class="wrapper style{{ forloop.index }} special {{post.categories | join: '_'}}">
-					{% for post in site.categories.content-landing reversed %}
-						{% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-
-								{% if post.image %}
-									<img class="left" src="images/{{ post.image }}" />
-								{% endif %}
-							<div class="inner {{ page.style }}">
-								{{ post.content }}
-
-							</div>
-						</section>
-					{% endfor %}s-->
-
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
