@@ -13,14 +13,14 @@ layout: landing
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
 
-					<a id="one"/>
 					{% for post in site.categories.content-landing reversed %}
 						{% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-						<section id="{{id}}" class="wrapper style4 {{post.categories | join: '_'}}">
-							<div class="inner {{ page.style }}">
+						<section id="one" class="wrapper style{{ forloop.index }} special {{post.categories | join: '_'}}">
 								{% if post.image %}
-									<img src="images/{{ post.image }}" />
+									<img class="left" src="images/{{ post.image }}" />
 								{% endif %}
+							<div class="inner {{ page.style }}">
+
 								{{ post.content }}
 							</div>
 						</section>
