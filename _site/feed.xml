@@ -8,8 +8,8 @@ and humanitarian aid
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Feb 2017 17:25:50 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Feb 2017 17:25:50 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Feb 2017 18:19:40 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Feb 2017 18:19:40 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -279,24 +279,9 @@ This creates and checks out an orphan branch called gh-pages that tracks the ori
     
       <item>
         <title>home</title>
-        <description>&lt;h3 class=&quot;text-purple&quot; id=&quot;whoa-hey-an-open-source&quot;&gt;&lt;em&gt;whoa, hey an open-source&lt;/em&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&quot;fa-stack subtlecircle&quot; style=&quot;font-size:100px; background:rgba(255,166,0,0.1)&quot;&gt;
-  &lt;i class=&quot;fa fa-circle fa-stack-2x text-white&quot;&gt;&lt;/i&gt;
-  &lt;i class=&quot;fa fa-bicycle fa-stack-1x text-orange&quot;&gt;&lt;/i&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h1 class=&quot;text-purple&quot; id=&quot;single-page-jekyll-theme&quot;&gt;single-page jekyll theme&lt;/h1&gt;
-
-&lt;p&gt;…it’s focused on delivering information quickly, easily, configurably, and stylishly!&lt;/p&gt;
+        <description>&lt;p&gt;…it’s focused on delivering information quickly, easily, configurably, and stylishly!&lt;/p&gt;
 
 &lt;p&gt;Want to make a single-page site to show off something cool? Go &lt;a href=&quot;https://github.com/t413/SinglePaged&quot;&gt;fork me on github!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span id=&quot;forkongithub&quot;&gt;
-  &lt;a href=&quot;&quot; class=&quot;bg-blue&quot;&gt;
-    Fork me on GitHub
-  &lt;/a&gt;
-&lt;/span&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
         <link>http://localhost:4000/content-landing/2000/01/01/intro.html</link>
