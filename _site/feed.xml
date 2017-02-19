@@ -8,9 +8,304 @@ and humanitarian aid
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Jan 2017 19:03:25 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Jan 2017 19:03:25 +0000</lastBuildDate>
+    <pubDate>Sun, 19 Feb 2017 17:25:50 +0000</pubDate>
+    <lastBuildDate>Sun, 19 Feb 2017 17:25:50 +0000</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>video</title>
+        <description>&lt;p&gt;Having an &lt;strong&gt;embedded media&lt;/strong&gt; (photos and video) is often inflexible with a dynamic and &lt;strong&gt;responsive design&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 class=&quot;left&quot; id=&quot;embed-your-video-like-this&quot;&gt;Embed your video like this:&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icontain&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/8yis7GzlXNM&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It’ll play like this funny video below! Try resizing the page!&lt;/p&gt;
+
+&lt;p&gt;Photo layouts are also really cool and dynamically resizable. Check out the photos/gallery section at &lt;a href=&quot;http://magiciansanfrancisco.com&quot;&gt;magiciansanfrancisco.com&lt;/a&gt; for a demo and see &lt;a href=&quot;https://github.com/strongrobert/MagicianSanFrancisco&quot;&gt;the source code&lt;/a&gt; for how.&lt;/p&gt;
+
+&lt;div class=&quot;icontain&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/8yis7GzlXNM&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description>
+        <pubDate>Fri, 07 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-other/2000/01/07/video.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-other/2000/01/07/video.html</guid>
+        
+        
+        <category>content-other</category>
+        
+      </item>
+    
+      <item>
+        <title>updating</title>
+        <description>&lt;h2 id=&quot;updating&quot;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;So you’ve got a copy running and there’s some new update? Let’s update!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Checkout your github-pages branch
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout gh-pages&lt;/code&gt; for a standalone or existing page&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout master&lt;/code&gt; for a &lt;em&gt;username.github.io&lt;/em&gt; page&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;run &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote | grep -q &quot;singlepage&quot; || git remote add -t publish singlepage https://github.com/t413/SinglePaged.git&lt;/code&gt; to be sure you have access to this repository (you can run this command at any time).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git fetch singlepage&lt;/code&gt; to fetch-in-place new changes.&lt;/li&gt;
+  &lt;li&gt;Update to the new base (using merge)
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git merge singlepage/publish&lt;/code&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can alternatively update using rebase. This &lt;em&gt;rewrites history&lt;/em&gt; (&lt;strong&gt;bad&lt;/strong&gt;), but it is cleaner.
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase singlepage/publish&lt;/code&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 06 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-other/2000/01/06/updating.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-other/2000/01/06/updating.html</guid>
+        
+        
+        <category>content-other</category>
+        
+      </item>
+    
+      <item>
+        <title>usage</title>
+        <description>&lt;p&gt;Alright, you’ve got a clean copy and are ready to push some schmancy pages for the world to ogle at.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to change your title, keywords, and description.&lt;/li&gt;
+  &lt;li&gt;Create a new file in &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts/&lt;/code&gt; called &lt;code class=&quot;highlighter-rouge&quot;&gt;2014-01-01-intro.md&lt;/code&gt;
+Edit it, and add:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;---
+title: &quot;home&quot;
+bg: white     #defined in _config.yml, can use html color like '#010101'
+color: black  #text color
+style: center
+---
+
+# Example headline!
+and so on..&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a second post called &lt;code class=&quot;highlighter-rouge&quot;&gt;2014-01-02-art.md&lt;/code&gt; with an divider image this time:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;---
+title: &quot;Art&quot;
+bg: turquoise  #defined in _config.yml, can use html color like '#0fbfcf'
+color: white   #text color
+fa-icon: paint-brush
+---
+
+#### A new section- oh the humanity!&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; That part &lt;code class=&quot;highlighter-rouge&quot;&gt;fa-icon: paint-brush&lt;/code&gt; will use a font-awesome icon of &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icon/paint-brush/&quot;&gt;paint-brush&lt;/a&gt;. You can use any icon from this &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;font-awesome icon directory&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;install Jekyll with &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install github-pages&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve -w&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;visit &lt;a href=&quot;http://localhost:4000&quot;&gt;localhost:4000&lt;/a&gt; to see a live locally served preview.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Push changes and see them live!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&quot;margin-top:100px;&quot; id=&quot;changing-your-colors&quot;&gt;&lt;strong&gt;Changing your colors&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In each post file you can define &lt;code class=&quot;highlighter-rouge&quot;&gt;bg: mycolor&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;color: myothercolor&lt;/code&gt; to change the background and text colors for that section.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mycolor&lt;/strong&gt; can be a quoted html color like &lt;code class=&quot;highlighter-rouge&quot;&gt;'#0fbfcf'&lt;/code&gt; or a key to a special color defined in &lt;strong&gt;_config.yml&lt;/strong&gt; under ‘colors’.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Note:&lt;/strong&gt; Changes to _config.yml require a manual restart to your local server with &lt;code class=&quot;highlighter-rouge&quot;&gt;^C&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve -w&lt;/code&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nifty, right!&lt;/p&gt;
+
+&lt;h3 style=&quot;margin-top:100px;&quot; id=&quot;also-see-readmemd-on-githubhttpsgithubcomt413singlepagedusage&quot;&gt;Also see &lt;strong&gt;README.md&lt;/strong&gt; &lt;a href=&quot;https://github.com/t413/SinglePaged#usage&quot;&gt;&lt;em&gt;on github!&lt;/em&gt;&lt;/a&gt;&lt;/h3&gt;
+
+</description>
+        <pubDate>Wed, 05 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-other/2000/01/05/usage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-other/2000/01/05/usage.html</guid>
+        
+        
+        <category>content-other</category>
+        
+      </item>
+    
+      <item>
+        <title>setup details</title>
+        <description>&lt;h2 id=&quot;setup-as-user-homepage&quot;&gt;Setup as user homepage&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go click &lt;strong&gt;fork&lt;/strong&gt; on the &lt;a href=&quot;https://github.com/t413/SinglePaged&quot;&gt;github project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Rename your new repository to &lt;code class=&quot;highlighter-rouge&quot;&gt;**username**.github.io&lt;/code&gt;. (click settings in the right column)&lt;/li&gt;
+  &lt;li&gt;Clone your repository, &lt;strong&gt;cd into the project&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout publish &amp;amp;&amp;amp; git branch -m master &amp;amp;&amp;amp; git push -u origin master &amp;amp;&amp;amp; git branch -D gh-pages&lt;/code&gt; to get the &lt;em&gt;publish&lt;/em&gt; branch as master for a clean, empty starting point.&lt;/li&gt;
+  &lt;li&gt;On your github project page go to &lt;em&gt;settings&lt;/em&gt; again and change your &lt;strong&gt;default branch&lt;/strong&gt; to &lt;strong&gt;&lt;em&gt;master&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin --delete gh-pages&lt;/code&gt; to delete your remote’s development branch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now hop over to &lt;a href=&quot;#usage&quot;&gt;Usage&lt;/a&gt; to get it running with your own stuff!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When you publish changes use &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin master&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;setup-as-standalone-project-page&quot;&gt;Setup as standalone project page&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go click &lt;strong&gt;fork&lt;/strong&gt; on the &lt;a href=&quot;https://github.com/t413/SinglePaged&quot;&gt;github project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Rename your new repository to &lt;code class=&quot;highlighter-rouge&quot;&gt;whatever you want&lt;/code&gt;. (click settings in the right column)
+    &lt;ul&gt;
+      &lt;li&gt;It will go live at yourusername.github.io/&lt;strong&gt;WhateverYouWant&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Clone your repository, cd into the project&lt;/li&gt;
+  &lt;li&gt;Run &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout publish &amp;amp;&amp;amp; git branch -D gh-pages &amp;amp;&amp;amp; git branch -m gh-pages &amp;amp;&amp;amp; git push -uf origin gh-pages&lt;/code&gt; to swap the &lt;em&gt;publish&lt;/em&gt; and &lt;em&gt;gh-pages&lt;/em&gt; branch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now hop over to &lt;a href=&quot;#usage&quot;&gt;Usage&lt;/a&gt; to get it running with your own stuff!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When you publish changes use &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin gh-pages&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;setup-inside-existing-project&quot;&gt;Setup inside existing project&lt;/h2&gt;
+
+&lt;p&gt;This is the most complicated use-case .. but it’s the coolest.
+Say you’ve got your kickass project &lt;code class=&quot;highlighter-rouge&quot;&gt;github.com/t413/kicker&lt;/code&gt; and want to have
+some web presence to post about on &lt;a href=&quot;http://news.ycombinator.com&quot;&gt;hacker news&lt;/a&gt;.
+This will create an orphan branch called &lt;code class=&quot;highlighter-rouge&quot;&gt;gh_pages&lt;/code&gt; in your repository
+where you can publish changes, posts, images, and such. It won’t alter your code at all.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; into your project on the command line&lt;/li&gt;
+  &lt;li&gt;use &lt;code class=&quot;highlighter-rouge&quot;&gt;git remote add -t publish singlepage git@github.com:t413/SinglePaged.git&lt;/code&gt; to get access to this repository.&lt;/li&gt;
+  &lt;li&gt;use &lt;code class=&quot;highlighter-rouge&quot;&gt;git fetch singlepage publish:gh-pages&lt;/code&gt; to fetch the remote branch&lt;/li&gt;
+  &lt;li&gt;use &lt;code class=&quot;highlighter-rouge&quot;&gt;git branch --set-upstream gh-pages singlepage/publish &amp;amp;&amp;amp; git checkout gh-pages;&lt;/code&gt;
+This creates and checks out an orphan branch called gh-pages that tracks the original and lets you make changes.&lt;/li&gt;
+  &lt;li&gt;When you run &lt;code class=&quot;highlighter-rouge&quot;&gt;git push gh-pages:origin/gh-pages&lt;/code&gt; it’ll be live at &lt;em&gt;yourusername.github.io/repositoryName&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now hop over to &lt;a href=&quot;#usage&quot;&gt;Usage&lt;/a&gt; to get it running with your own stuff!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When you publish changes use &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -u origin gh-pages&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 03 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-other/2000/01/03/details.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-other/2000/01/03/details.html</guid>
+        
+        
+        <category>content-other</category>
+        
+      </item>
+    
+      <item>
+        <title>Why</title>
+        <description>&lt;h4 id=&quot;basically&quot;&gt;Basically&lt;/h4&gt;
+
+&lt;h1 id=&quot;this-theme-rocks&quot;&gt;this theme rocks.&lt;/h1&gt;
+
+&lt;p&gt;Got some &lt;em&gt;killer app&lt;/em&gt;, some &lt;em&gt;neat project&lt;/em&gt;, a cool portfolio? Make an easy single-page site to show it all off. SinglePaged uses jekyll niceties to make a &lt;strong&gt;&lt;em&gt;polished, modular, and beautiful&lt;/em&gt; single page site&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Oh– go see &lt;a href=&quot;https://github.com/t413/SinglePaged#fancy-jekyll-powered-single-page-site&quot;&gt;some examples&lt;/a&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Each vertical section is a markdown file in &lt;strong&gt;_posts/&lt;/strong&gt; directory.
+    &lt;ul&gt;
+      &lt;li&gt;They’re sorted by ‘date’. (we don’t use date anywhere, it only sorts)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Each vertical section sets it’s own &lt;strong&gt;color&lt;/strong&gt;, &lt;strong&gt;header icon&lt;/strong&gt; (or image), &lt;strong&gt;title&lt;/strong&gt;, and easy-to-write markdown body.&lt;/li&gt;
+  &lt;li&gt;Only &lt;strong&gt;two things&lt;/strong&gt; to edit:
+    &lt;ol&gt;
+      &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to set the site title, description, etc&lt;/li&gt;
+      &lt;li&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts/*.md&lt;/code&gt; to make each vertical section. Copy some examples and add the sections from your README.md for a fast start!&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Easy adding of &lt;strong&gt;SEO terms&lt;/strong&gt;, &lt;strong&gt;favicon&lt;/strong&gt; &amp;amp; such, and &lt;strong&gt;google analytics token&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sound good? Let’s go!&lt;/p&gt;
+
+&lt;p&gt;There are three way to get started: (links jump to that section)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make a &lt;a href=&quot;#setup-as-user-homepage&quot;&gt;&lt;strong&gt;user homepage&lt;/strong&gt;&lt;/a&gt; (or organization)&lt;/li&gt;
+  &lt;li&gt;Make a &lt;a href=&quot;#setup-as-standalone-project-page&quot;&gt;&lt;strong&gt;standalone project&lt;/strong&gt;&lt;/a&gt; page&lt;/li&gt;
+  &lt;li&gt;Make a &lt;a href=&quot;#setup-inside-existing-project&quot;&gt;site under an &lt;strong&gt;existing project&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 02 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-landing/2000/01/02/why.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-landing/2000/01/02/why.html</guid>
+        
+        
+        <category>content-landing</category>
+        
+      </item>
+    
+      <item>
+        <title>home</title>
+        <description>&lt;h3 class=&quot;text-purple&quot; id=&quot;whoa-hey-an-open-source&quot;&gt;&lt;em&gt;whoa, hey an open-source&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;fa-stack subtlecircle&quot; style=&quot;font-size:100px; background:rgba(255,166,0,0.1)&quot;&gt;
+  &lt;i class=&quot;fa fa-circle fa-stack-2x text-white&quot;&gt;&lt;/i&gt;
+  &lt;i class=&quot;fa fa-bicycle fa-stack-1x text-orange&quot;&gt;&lt;/i&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1 class=&quot;text-purple&quot; id=&quot;single-page-jekyll-theme&quot;&gt;single-page jekyll theme&lt;/h1&gt;
+
+&lt;p&gt;…it’s focused on delivering information quickly, easily, configurably, and stylishly!&lt;/p&gt;
+
+&lt;p&gt;Want to make a single-page site to show off something cool? Go &lt;a href=&quot;https://github.com/t413/SinglePaged&quot;&gt;fork me on github!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;forkongithub&quot;&gt;
+  &lt;a href=&quot;&quot; class=&quot;bg-blue&quot;&gt;
+    Fork me on GitHub
+  &lt;/a&gt;
+&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/content-landing/2000/01/01/intro.html</link>
+        <guid isPermaLink="true">http://localhost:4000/content-landing/2000/01/01/intro.html</guid>
+        
+        
+        <category>content-landing</category>
+        
+      </item>
     
   </channel>
 </rss>
