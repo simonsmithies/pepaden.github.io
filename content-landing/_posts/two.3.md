@@ -1,3 +1,5 @@
-## Augue eleifend aliquet sed condimentum
+## Wantone
 
-Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+We are currently in the process of getting these to festivals near you! 
+If you want one for home and live in New Zealand, feel free to send us a message and we’ll see what we can do.
+
