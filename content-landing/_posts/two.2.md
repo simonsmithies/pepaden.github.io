@@ -1,3 +1,2 @@
-## Eco-tent
 
-The Pepaden Eco-tent is a two person tent made out of a revolutionary new paper called Rockstock which has won NZ Environmental Choice awards. This tent is portable and can easily be recycled. Take a look at [Rockstock](http://www.stonepaper.co.nz/about-rockstock) for more info.
+Delivered directly to your event, easy to set up, and designed to last a week of rain, these tents can be recycled or composted after the crowds are gone, saving dump fees and the environment. As well as this, the tents can be printed on, painted on, and drawn on allowing for sponsorship opportunities and great fun for festival goers!  Not only do you save dumping costs, we can also provide set-up, waste disposal, maintenance and pens + art supplies to increase the quality of temporary accommodation to your customers.
